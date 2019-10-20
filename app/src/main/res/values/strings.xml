@@ -80,7 +80,30 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="dev_neoxmy2">فريق Dev Neoxmy2 هو فريق برمجي عربي هدفه برمجة تطبيقات ذات قيمة إبداعيّة و برمجيّة إعتمادا على كوادر عربيّة ذات مستوى علمي مميّز و خبرة كبيرة بالبرمجة . هدفنا خلق أفكار و تطوير مشاريع برمجيّة إبداعيّة خلاقة قادرة على منافسة التّطبيقات العالميّة . ما يميّزنا : - الحرفيّة و الإبداع - سنوات من الخبرة - إحترام الوقت - السعي الدائم لإرضاء حرفائنا الكرام</string>
+    <string name="dev_neoxmy2">
+        Dev Impact is an arab team who can develop professional mobile applications ,
+        their members have strong technical background . Our target is to develop new creative and competitive ideas .
+        we always guarantee proficiency , experience, punctuality  and customers satisfactions.
+    </string>
+    <string name="profit_strategies">
+        Dear Customer, we can provide you with the best advices and strategies to achieve high profit form your application ,  dont hesitate to contact us , just click on the button below.
+    </string>
+
+    <string name="videos_activity">
+        Dear Customer , we can make professional Promo videos for you,  dont hesitate to contact us , just click on the button below.
+    </string>
+
+    <string name="other_services">
+        Dear Customer , we offers many other services . dont hesitate to contact us , just click on the button below.
+    </string>
+
+    <string name="developing_apps">
+       Dear Customer ,we can develop professional Applications for you ,  dont hesitate to contact us , just click on the button below.
+    </string>
+
+    <string name="design_pics">
+        Dear Customer ,we can design professional photos and Logos for you ,  dont hesitate to contact us , just click on the button below.
+    </string>
 
 </resources>
 

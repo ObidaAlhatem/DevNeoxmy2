@@ -36,8 +36,14 @@
 
         <activity android:name=".TeamMemberActivity" />
         <activity android:name=".OurServicesActivity" />
-        <activity android:name=".About"
-            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".About"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".VideosActivity" />
+        <activity android:name=".DesignPicsActivity" />
+        <activity android:name=".DevelopingAppsActivity" />
+        <activity android:name=".OtherServicesActivity" />
+        <activity android:name=".ProfitStrategiesActivity"></activity>
     </application>
 
 </manifest>

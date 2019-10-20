@@ -31,8 +31,8 @@ public class OurServicesActivity extends AppCompatActivity implements YouTubePla
         design.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               // Intent intent = new Intent(OurServicesActivity.this, DesignActivity.class);
-                //startActivity(intent);
+               Intent intent = new Intent(OurServicesActivity.this, DesignPicsActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -40,8 +40,8 @@ public class OurServicesActivity extends AppCompatActivity implements YouTubePla
         programming.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Intent intent = new Intent(OurServicesActivity.this, programmingActivity.class);
-                //startActivity(intent);
+                 Intent intent = new Intent(OurServicesActivity.this, DevelopingAppsActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -49,8 +49,8 @@ public class OurServicesActivity extends AppCompatActivity implements YouTubePla
         videos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Intent intent = new Intent(OurServicesActivity.this, videosActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(OurServicesActivity.this, VideosActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -58,16 +58,16 @@ public class OurServicesActivity extends AppCompatActivity implements YouTubePla
         money.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Intent intent = new Intent(OurServicesActivity.this, moneyActivity.class);
-                //startActivity(intent);
+                 Intent intent = new Intent(OurServicesActivity.this, ProfitStrategiesActivity.class);
+                startActivity(intent);
             }
         });
         final Button others= (Button)findViewById(R.id.others);
         others.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Intent intent = new Intent(OurServicesActivity.this, othersActivity.class);
-                //startActivity(intent);
+                 Intent intent = new Intent(OurServicesActivity.this, OtherServicesActivity.class);
+                startActivity(intent);
             }
         });
         final Button askforservice= (Button)findViewById(R.id.askforservice);
