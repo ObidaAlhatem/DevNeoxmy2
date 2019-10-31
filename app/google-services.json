@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "789120228223",
+    "firebase_url": "https://dev-neoxmy2.firebaseio.com",
+    "project_id": "dev-neoxmy2",
+    "storage_bucket": "dev-neoxmy2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789120228223:android:c84ff17025d0279373184a",
+        "android_client_info": {
+          "package_name": "com.DevNeoxmy.startup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789120228223-ikks9hdbp2b0minnf5cgp953imaarnnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DevNeoxmy.startup",
+            "certificate_hash": "8e559f405541309c77c31c5c3c3cba7054492a23"
+          }
+        },
+        {
+          "client_id": "789120228223-2irvlg8vo3uj7b0cfa81qkj1q5bi3qr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl7zjG89-MW6is3t89lJfL6Y7aati6TIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789120228223-2irvlg8vo3uj7b0cfa81qkj1q5bi3qr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
