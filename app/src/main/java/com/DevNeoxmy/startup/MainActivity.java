@@ -1,15 +1,22 @@
 package com.DevNeoxmy.startup;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.MenuItem;
+import com.google.android.material.navigation.NavigationView;
+//import com.google.firebase.auth.FirebaseAuth;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
+    FragmentTransaction fragmentTransaction;
+    FragmentManager fragmentManager;
     //Add Navigation Drawer
     private DrawerLayout drawer;
 
@@ -22,10 +29,15 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         drawer = findViewById(R.id.drawer_layout);
-
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(MainActivity.this);
+
+
+
     }
 
     @Override
@@ -36,4 +48,58 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.nav_profile) {
+
+        } else if (id == R.id.nav_newaccount) {
+
+        } else if (id == R.id.nav_login) {
+
+        } else if (id == R.id.nav_offers) {
+
+        } else if (id == R.id.nav_about) {
+            fragmentManager = getSupportFragmentManager();
+            fragmentTransaction = fragmentManager.beginTransaction();
+            DeveloperListFragment fragmentList = new DeveloperListFragment();
+            fragmentTransaction.replace(R.id.fragment_container, fragmentList).addToBackStack(null);
+            fragmentTransaction.commit();
+
+        }  else if (id == R.id.nav_share) {
+
+        } else if (id == R.id.nav_rate) {
+
+        } else if (id == R.id.SignOut) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+            builder.setTitle(getString(R.string.exit));
+            builder.setMessage(getString(R.string.signoutmessage));
+            builder.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    //FirebaseAuth.getInstance().signOut();
+                    moveTaskToBack(true);
+                    android.os.Process.killProcess(android.os.Process.myPid());
+                    System.exit(1);
+                }
+            });
+            builder.setNegativeButton(getString(R.string.no), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    dialog.cancel();
+                }
+            });
+            builder.show();
+
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
+
 }

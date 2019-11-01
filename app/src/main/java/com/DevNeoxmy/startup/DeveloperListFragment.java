@@ -18,12 +18,12 @@ import androidx.fragment.app.Fragment;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TestFragment extends Fragment {
+public class DeveloperListFragment extends Fragment {
     ArrayList<TeamMemberInfo> TeamMembersList;
     ListView lv;
     TeamMemberAdapter adapter;
 
-    public TestFragment() {
+    public DeveloperListFragment() {
         // Required empty public constructor
     }
 
@@ -32,7 +32,7 @@ public class TestFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView= inflater.inflate(R.layout.fragment_test, container, false);
+        View rootView= inflater.inflate(R.layout.fragment_developer_list, container, false);
 
 
         TeamMembersList = new ArrayList<TeamMemberInfo>();

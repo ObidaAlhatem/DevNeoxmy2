@@ -1,2 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Dev Neoxmy2</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <string name="country">الدولة</string>
+    <string name="title">المهنة</string>
+    <string name="Division">الشعبة</string>
+    <string name="signoutmessage">هل تريد الخروج ؟</string>
+    <string name="exit">انهاء التطبيق</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+    <string name="signout"> تسجيل الخروج </string>
+    <string name="rate"> تقييم </string>
+    <string name="share"> مشاركة </string>
+    <string name="about"> عننا </string>
+    <string name="offers"> العروض </string>
+    <string name="login"> تسجيل الدخول </string>
+    <string name="newAccount"> حساب جديد </string>
+    <string name="profile"> الصفحة الشخصية </string>
+
+
+    <string name="ListOfDeveloper"> أعضاء الفريق </string>
+
+    <string-array name="dev1">
+        <item>سليمان سليم</item>
+        <item>تونس</item>
+        <item>مدرب مجال الاندرويد</item>
+        <item>اشهار ومالتي ميديا</item>
+        <item>slimane</item>
+    </string-array>
+
+    <string-array name="dev2">
+        <item>ريهام محمود</item>
+        <item>مصر</item>
+        <item>مطور تطبيقات اندرويد</item>
+        <item>برمجة تطبيقات الاندرويد</item>
+        <item>reham</item>
+    </string-array>
+
+    <string-array name="dev3">
+        <item>عبيدة الحاتم</item>
+        <item>سوريا</item>
+        <item>مطور تطبيقات اندرويد</item>
+        <item>برمجة تطبيقات الاندرويد</item>
+        <item>obida</item>
+    </string-array>
+
+    <string-array name="dev4">
+        <item>سماح مكي</item>
+        <item>مصر</item>
+        <item>مطور تطبيقات اندرويد</item>
+        <item>برمجة تطبيقات الاندرويد</item>
+        <item>samah</item>
+    </string-array>
+
+    <string-array name="dev5">
+        <item>تهاني محمود</item>
+        <item>مصر</item>
+        <item>مطور تطبيقات اندرويد</item>
+        <item>برمجة تطبيقات الاندرويد</item>
+        <item>tahany</item>
+    </string-array>
+
+    <string-array name="dev6">
+        <item>يوسف عصام</item>
+        <item>مصر</item>
+        <item>مطور تطبيقات اندرويد</item>
+        <item>برمجة تطبيقات الاندرويد</item>
+        <item>youssef</item>
+    </string-array>
+
+</resources>

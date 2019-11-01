@@ -2,4 +2,73 @@
     <string name="app_name">Dev Neoxmy2</string>
     <string name="navigation_drawer_open">Open Navigation drawer</string>
     <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <string name="country">Country</string>
+    <string name="title">Title</string>
+    <string name="Division">Division</string>
+    <string name="signoutmessage">Do you want to Exit Application?</string>
+    <string name="exit">Exit Application</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="ListOfDeveloper"> Our Team Members </string>
+    <string name="signout"> Sign Out </string>
+    <string name="rate"> Rate </string>
+    <string name="share"> Share </string>
+    <string name="about"> About </string>
+    <string name="offers"> Offers </string>
+    <string name="login"> Log In </string>
+    <string name="newAccount"> New Account </string>
+    <string name="profile"> Profile </string>
+    <string-array name="dev1">
+        <item>Slimane Salim</item>
+        <item>Tunisia</item>
+        <item>Android Applications Tutor</item>
+        <item>Advertising and multimedia</item>
+        <item>slimane</item>
+    </string-array>
+
+    <string-array name="dev2">
+        <item>Reham Mahmoud</item>
+        <item>Egypt</item>
+        <item>Android Applications developer</item>
+        <item>Android Applications development</item>
+        <item>reham</item>
+    </string-array>
+
+    <string-array name="dev3">
+        <item>Obida ElHatem</item>
+        <item>Syria</item>
+        <item>Android Applications developer</item>
+        <item>Android Applications development</item>
+        <item>obida</item>
+    </string-array>
+
+    <string-array name="dev4">
+        <item>Samah Makki</item>
+        <item>Egypt</item>
+        <item>Android Applications developer</item>
+        <item>Android Applications development</item>
+        <item>samah</item>
+    </string-array>
+
+    <string-array name="dev5">
+        <item>Tahany Mahmoud</item>
+        <item>Egypt</item>
+        <item>Android Applications developer</item>
+        <item>Android Applications development</item>
+        <item>tahany</item>
+    </string-array>
+
+    <string-array name="dev6">
+        <item>Youssef Essam</item>
+        <item>Egypt</item>
+        <item>Android Applications developer</item>
+        <item>Android Applications development</item>
+        <item>youssef</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
 </resources>
+

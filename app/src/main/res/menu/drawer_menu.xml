@@ -7,35 +7,39 @@
 
         <item android:id="@+id/nav_profile"
             android:icon="@drawable/ic_profile"
-            android:title="Profile" />
+            android:title="@string/profile" />
 
         <item android:id="@+id/nav_newaccount"
             android:icon="@drawable/ic_newaccount"
-            android:title="New Account" />
+            android:title="@string/newAccount" />
 
         <item android:id="@+id/nav_login"
             android:icon="@drawable/ic_login"
-            android:title="Log In" />
+            android:title="@string/login" />
     </group>
 
     <group>
         <item android:id="@+id/nav_offers"
             android:icon="@drawable/ic_offers"
-            android:title="Offers" />
+            android:title="@string/offers" />
     </group>
 
     <group>
         <item android:id="@+id/nav_about"
             android:icon="@drawable/ic_about"
-            android:title="About" />
+            android:title="@string/about" />
 
         <item android:id="@+id/nav_share"
             android:icon="@drawable/ic_share"
-            android:title="Share" />
+            android:title="@string/share" />
 
         <item android:id="@+id/nav_rate"
             android:icon="@drawable/ic_rate"
-            android:title="Rate" />
+            android:title="@string/rate" />
+
+        <item android:id="@+id/SignOut"
+            android:icon="@drawable/signout"
+            android:title="@string/signout" />
 
     </group>
 </menu>
