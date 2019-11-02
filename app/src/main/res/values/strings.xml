@@ -21,12 +21,13 @@
     <string name="profile"> Profile </string>
 
     <string name="design">Design </string>
-    <string name="programming">Application \nDevelopment  </string>
+    <string name="programming">Developing Apps</string>
     <string name="videos">Videos </string>
     <string name="money">Profit strategies </string>
     <string name="others">Other Services</string>
     <string name="askForServices">Ask For Service </string>
-
+    <string name="youtubeAPIKey">AIzaSyDb-kthRHn2p5EFH780zAaJsNxw6YwhFOY</string>
+    <string name="youtubeVideo_id">OXVAmNTVJsM</string>
 
 
     <string-array name="dev1">

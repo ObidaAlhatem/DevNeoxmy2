@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.DevNeoxmy.startup">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -33,8 +34,6 @@
         </service>
 
         <activity android:name=".TeamMemberActivity" />
-        <activity android:name=".TeamMemberListActivity" />
-        <activity android:name=".ListActivity" />
         <activity android:name=".OurServicesActivity"></activity>
     </application>
 
