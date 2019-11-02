@@ -10,15 +10,25 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
 
-    <string name="ListOfDeveloper"> Our Team Members </string>
+    <string name="ListOfDeveloper"> Team Members </string>
     <string name="signout"> Sign Out </string>
     <string name="rate"> Rate </string>
     <string name="share"> Share </string>
     <string name="about"> About </string>
-    <string name="offers"> Offers </string>
+    <string name="offers"> Our Services </string>
     <string name="login"> Log In </string>
     <string name="newAccount"> New Account </string>
     <string name="profile"> Profile </string>
+
+    <string name="design">Design </string>
+    <string name="programming">Application \nDevelopment  </string>
+    <string name="videos">Videos </string>
+    <string name="money">Profit strategies </string>
+    <string name="others">Other Services</string>
+    <string name="askForServices">Ask For Service </string>
+
+
+
     <string-array name="dev1">
         <item>Slimane Salim</item>
         <item>Tunisia</item>
@@ -69,6 +79,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    
+
 </resources>
 

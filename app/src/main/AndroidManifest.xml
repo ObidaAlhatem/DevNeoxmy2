@@ -34,7 +34,8 @@
 
         <activity android:name=".TeamMemberActivity" />
         <activity android:name=".TeamMemberListActivity" />
-        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".ListActivity" />
+        <activity android:name=".OurServicesActivity"></activity>
     </application>
 
 </manifest>

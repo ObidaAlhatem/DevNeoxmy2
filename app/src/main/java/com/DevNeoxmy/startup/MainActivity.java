@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import com.google.android.material.navigation.NavigationView;
@@ -63,12 +64,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         } else if (id == R.id.nav_offers) {
 
-        } else if (id == R.id.nav_about) {
+            Intent it = new Intent(MainActivity.this, OurServicesActivity.class);
+            startActivity(it);
+
+        } else if (id == R.id.ListOfDeveloper) {
             fragmentManager = getSupportFragmentManager();
             fragmentTransaction = fragmentManager.beginTransaction();
             DeveloperListFragment fragmentList = new DeveloperListFragment();
             fragmentTransaction.replace(R.id.fragment_container, fragmentList).addToBackStack(null);
             fragmentTransaction.commit();
+
+        }
+        else if (id == R.id.nav_about) {
+
 
         }  else if (id == R.id.nav_share) {
 

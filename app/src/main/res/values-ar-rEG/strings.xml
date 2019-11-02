@@ -15,10 +15,17 @@
     <string name="rate"> تقييم </string>
     <string name="share"> مشاركة </string>
     <string name="about"> عننا </string>
-    <string name="offers"> العروض </string>
+    <string name="offers"> عروضنا التجارية </string>
     <string name="login"> تسجيل الدخول </string>
     <string name="newAccount"> حساب جديد </string>
     <string name="profile"> الصفحة الشخصية </string>
+
+    <string name="design">تصميم </string>
+    <string name="programming">برمجة التطبيقات </string>
+    <string name="videos">فيديوهات</string>
+    <string name="money">استراجيات الربح</string>
+    <string name="others">خدمات أخرى</string>
+    <string name="askForServices">اطلب خدماتنا </string>
 
 
     <string name="ListOfDeveloper"> أعضاء الفريق </string>
