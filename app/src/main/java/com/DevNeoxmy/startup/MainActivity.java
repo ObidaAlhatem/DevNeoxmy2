@@ -6,10 +6,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import com.google.android.material.navigation.NavigationView;
 //import com.google.firebase.auth.FirebaseAuth;
+import java.io.File;
+
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -70,9 +75,24 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             fragmentTransaction.replace(R.id.fragment_container, fragmentList).addToBackStack(null);
             fragmentTransaction.commit();
 
+            //the user share our app
         }  else if (id == R.id.nav_share) {
 
+            ApplicationInfo api = getApplicationContext().getApplicationInfo();
+            String apkpath = api.sourceDir;
+            Intent shrintent = new Intent(Intent.ACTION_SEND);
+            shrintent.setType("application/vnd.android.package-archive");
+            shrintent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(apkpath)));
+            startActivity(Intent.createChooser(shrintent, "Share Using"));
+
+
+        // make the user rate the app in google play
         } else if (id == R.id.nav_rate) {
+
+            Intent rateintent = new Intent(Intent.ACTION_VIEW);
+            rateintent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.DevNeoxmy.startup"));
+
+            startActivity(rateintent);
 
         } else if (id == R.id.SignOut) {
             AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
