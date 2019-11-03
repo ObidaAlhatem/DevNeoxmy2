@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.DevNeoxmy.startup">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -33,8 +35,7 @@
         </service>
 
         <activity android:name=".TeamMemberActivity" />
-        <activity android:name=".TeamMemberListActivity" />
-        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".OurServicesActivity" />
     </application>
 
 </manifest>

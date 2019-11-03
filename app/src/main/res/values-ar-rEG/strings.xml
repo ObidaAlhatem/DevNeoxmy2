@@ -3,6 +3,8 @@
     <string name="app_name">Dev Neoxmy2</string>
     <string name="navigation_drawer_open">Open Navigation drawer</string>
     <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <string name="youtubeAPIKey">AIzaSyDb-kthRHn2p5EFH780zAaJsNxw6YwhFOY</string>
+    <string name="youtubeVideo_id">OXVAmNTVJsM</string>
     <string name="country">الدولة</string>
     <string name="title">المهنة</string>
     <string name="Division">الشعبة</string>
@@ -14,11 +16,18 @@
     <string name="signout"> تسجيل الخروج </string>
     <string name="rate"> تقييم </string>
     <string name="share"> مشاركة </string>
-    <string name="about"> عننا </string>
-    <string name="offers"> العروض </string>
+    <string name="about"> عن الفريق </string>
+    <string name="offers"> عروضنا التجارية </string>
     <string name="login"> تسجيل الدخول </string>
     <string name="newAccount"> حساب جديد </string>
     <string name="profile"> الصفحة الشخصية </string>
+
+    <string name="design">تصميم </string>
+    <string name="programming">برمجة التطبيقات </string>
+    <string name="videos">فيديوهات</string>
+    <string name="money">استراجيات الربح</string>
+    <string name="others">خدمات أخرى</string>
+    <string name="askForServices">اطلب خدماتنا </string>
 
 
     <string name="ListOfDeveloper"> أعضاء الفريق </string>

@@ -68,7 +68,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         } else if (id == R.id.nav_offers) {
 
-        } else if (id == R.id.nav_about) {
+            Intent it = new Intent(MainActivity.this, OurServicesActivity.class);
+            startActivity(it);
+
+        } else if (id == R.id.ListOfDeveloper) {
             fragmentManager = getSupportFragmentManager();
             fragmentTransaction = fragmentManager.beginTransaction();
             DeveloperListFragment fragmentList = new DeveloperListFragment();
@@ -76,6 +79,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             fragmentTransaction.commit();
 
             //the user share our app
+        }
+        else if (id == R.id.nav_about) {
+
+
         }  else if (id == R.id.nav_share) {
 
             ApplicationInfo api = getApplicationContext().getApplicationInfo();
