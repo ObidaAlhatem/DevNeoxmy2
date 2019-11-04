@@ -36,6 +36,8 @@
 
         <activity android:name=".TeamMemberActivity" />
         <activity android:name=".OurServicesActivity" />
+        <activity android:name=".About"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

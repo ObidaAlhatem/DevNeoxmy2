@@ -81,7 +81,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             //the user share our app
         }
         else if (id == R.id.nav_about) {
-
+            Intent i= new Intent(MainActivity.this, About.class);
+            startActivity(i);
 
         }  else if (id == R.id.nav_share) {
 
